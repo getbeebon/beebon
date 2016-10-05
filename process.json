@@ -1,0 +1,28 @@
+{
+  "apps" : [
+  {
+    "name"        : "collector",
+    "script"      : "./collector.js",
+    "watch"       : false,
+    "env": {
+      "NODE_ENV": "test",
+    }
+  },
+  {
+    "name"        : "reporter",
+    "script"      : "./reporter.js",
+    "watch"       : false,
+    "env": {
+      "NODE_ENV": "test",
+    }
+  },
+  {
+    "name"        : "web",
+    "script"      : "./web.js",
+    "watch"       : false,
+    "env": {
+      "NODE_ENV": "test",
+    }
+  }
+  ]
+}
