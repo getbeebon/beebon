@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "beebon-collector": "0.0.1",
-    "beebon-reporter": "0.0.1",
+    "beebon-collector": "0.0.2",
+    "beebon-reporter": "0.0.2",
     "beebon-web": "0.0.3",
     "config": "^1.21.0"
   }

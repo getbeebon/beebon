@@ -1,7 +1,7 @@
 {
   "apps" : [
   {
-    "name"        : "collector",
+    "name"        : "beebon-collector",
     "script"      : "./collector.js",
     "watch"       : false,
     "env": {
@@ -9,7 +9,7 @@
     }
   },
   {
-    "name"        : "reporter",
+    "name"        : "beebon-reporter",
     "script"      : "./reporter.js",
     "watch"       : false,
     "env": {
@@ -17,7 +17,7 @@
     }
   },
   {
-    "name"        : "web",
+    "name"        : "beebon-web",
     "script"      : "./web.js",
     "watch"       : false,
     "env": {
