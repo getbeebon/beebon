@@ -5,6 +5,7 @@
     "script"      : "./collector.js",
     "watch"       : false,
     "env": {
+      "NODE_CONFIG_DIR": "/etc/beebon/",
       "NODE_ENV": "test",
     }
   },
@@ -13,6 +14,7 @@
     "script"      : "./reporter.js",
     "watch"       : false,
     "env": {
+      "NODE_CONFIG_DIR": "/etc/beebon/",
       "NODE_ENV": "test",
     }
   },
@@ -21,6 +23,7 @@
     "script"      : "./web.js",
     "watch"       : false,
     "env": {
+      "NODE_CONFIG_DIR": "/etc/beebon/",
       "NODE_ENV": "test",
     }
   }
